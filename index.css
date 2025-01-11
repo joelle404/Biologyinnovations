@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* Forest Color Palette */
+:root {
+    --forest-green: #014421;
+    --moss-green: #014421ad;
+    --earth-brown: #8B4513;
+    --sky-blue: #A9C46C;
+    --cream-white: #F5F5DC;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: var(--forest-green) !important;
+    border-bottom: 2px solid var(--moss-green);
+}
+
+.navbar-brand {
+    color: var(--cream-white) !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: var(--cream-white) !important;
+    font-size: 1.1rem;
+}
+
+.nav-link:hover, .dropdown-item:hover {
+    color: var(--sky-blue) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--forest-green) !important;
+}
+
+.dropdown-item {
+    color: var(--cream-white) !important;
+}
+
+.navbar-toggler-icon {
+    background-color: var(--cream-white);
+}
+
+
+/* Product Section */
+.album {
+    background-color: var(--cream-white);
+    padding: 50px 0;
+}
+
+.card {
+    background-color: var(--moss-green);
+    color: var(--cream-white);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    background-color: var(--forest-green);
+    transform: scale(1.05);
+}
+
+.card-text {
+    font-weight: bold;
+}
+.btn{
+background-color: #8b451356;
+color: aliceblue;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #8b451391;
+    color: aliceblue;
+    text-decoration: underline;
+
+    }
+
+
+
