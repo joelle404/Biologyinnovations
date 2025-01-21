@@ -119,3 +119,17 @@ color: aliceblue;
       padding: 8px; /* Add more padding for better readability */
     }
   }
+
+
+
+@media (max-width: 768px) {
+    /* On mobile, change layout to single column and add gap */
+    .category-section .row {
+      flex-direction: column;
+      gap: 20px; /* Adds a gap between the cards */
+    }
+    
+    .category-card {
+      width: 100%; /* Make cards take up full width on mobile */
+    }
+  }
