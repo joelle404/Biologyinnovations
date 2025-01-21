@@ -103,3 +103,19 @@ color: aliceblue;
         font-size: 16px; /* Adjusts text size */
       }
       
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .feature-section {
+      grid-template-columns: 1fr; /* Switch to 1 column on mobile */
+    }
+    
+    .grouppic {
+      max-height: 300px; /* Optionally adjust image height for smaller screens */
+    }
+  
+    p {
+      font-size: 14px; /* Adjust text size for mobile */
+      padding: 15px; /* Add more padding for better readability */
+    }
+  }
