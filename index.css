@@ -114,7 +114,7 @@ color: aliceblue;
       max-height: 400px; /* Optionally adjust image height for smaller screens */
     }
   
-    p {
+    p , h6{
       font-size: 14px; /* Adjust text size for mobile */
       padding: 8px; /* Add more padding for better readability */
     }
